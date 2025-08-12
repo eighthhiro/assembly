@@ -12,4 +12,5 @@ _start:                     ;tell linker entry point
 section	.data
 
 msg	db	'Hello, world!',0xa	;our dear string
+
 len	equ	$ - msg			;length of our dear string
